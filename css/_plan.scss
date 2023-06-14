@@ -1,0 +1,100 @@
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 176px;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 137px;
+
+    &__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.05px;
+        text-transform: uppercase;
+        color: #43806C;
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #214E41;
+    }
+
+    &__txt {
+        margin-top: 30px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02px;
+        color: #757575;
+    }
+
+    &__link {
+        margin-top: 24px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0.02px;
+        color: #214E41;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .plan__img {
+        display: flex;
+        margin: 0 30px;
+        align-items: center;
+
+        p {
+            margin-top: 50px;
+        }
+    }
+
+    .plan__cost {
+        display: flex;
+        background: #43806C;
+        border-radius: 0px;
+        height: 150px;
+        width: 78px;
+        margin-left: 50px;
+    }
+
+    .plan__costs {
+        margin-left: 60px;
+        padding-top: 0%;
+    }
+
+    .plan__cost1 {
+        height: 300px;
+        width: 78px;
+        background: #43806C;
+    }
+    .plan__flex2{
+        display: flex;
+    }
+    .plan__flex{
+        padding-top: 100px;
+    }
+    .plan2__text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.02px;
+        color: #214E41;
+    }
+}

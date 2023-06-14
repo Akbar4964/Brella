@@ -1,0 +1,41 @@
+.talk {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url(/img/backgr.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+
+    .talk__content {
+        margin-top: 140px;
+        margin-left: 120px;
+
+        p {
+            margin-top: 46px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 46px;
+            color: #214E41;
+        }
+
+        button {
+            margin-top: 60px;
+            height: 47px;
+            width: 125px;
+            border-radius: 6px;
+            background: #43806C;
+            border: 1px solid #43806C;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.02px;
+            color: #FFFFFF;
+        }
+    }
+}

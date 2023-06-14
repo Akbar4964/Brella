@@ -1,0 +1,30 @@
+.card {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    .card__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 0.05px;
+        text-transform: uppercase;
+        color: #43806C;
+        margin-top: 20px;
+    }
+
+    .card__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px; 
+        color: #214E41;
+        margin-top: 15px;
+    }
+}

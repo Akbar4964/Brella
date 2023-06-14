@@ -1,0 +1,40 @@
+@import "_navbar";
+@import "_brellacontent";
+@import "_plan";
+@import "_bring";
+@import "_health";
+@import "_backimage";
+@import "_proudly";
+@import "_card";
+@import "_talk";
+@import "_latest";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;  
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.header{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,111 @@
+.brella__content {
+    background-image: url(/img/back-image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 90px);
+
+    .brella__text{
+        display: flex;
+        align-self: center;
+        margin-left: 120px;
+        padding-top: 161px;
+    }
+
+    .brella__text1 {
+        height: 138px;
+        width: 516px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #214E41;
+    }
+
+    .brella__text2 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #214E41;
+        height: 60px;
+        width: 280px;
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+
+        .brella__text3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+            background: #43806C;
+            border-radius: 0px 6px 6px 0px;
+            height: 60px;
+            width: 123px;
+        }
+
+        input {
+            padding-left: 20px ;
+            height: 60px;
+            width: 280px;
+            background: #FFFFFF;
+            border-radius: 6px 0px 0px 6px;
+            border: 0;
+            outline: 0;
+        }
+    }
+
+
+    .brella__cards {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 161px;
+        height: 171px;
+        width: 1200px;
+        border-radius: 6px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 4px rgba(7, 7, 7, 0.6);
+        border:0.1px solid black;
+    }
+
+    .brella__card {
+        display: flex;
+        align-items: center;
+        margin: 0 25px;
+        .brella__cardf{
+            margin-left: 10px;
+        }
+    }
+
+    .brella__card-title {
+        // padding-top: 40px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #214E41;
+    }
+
+    .brella__card-text {
+        margin-top: 15px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #214E41;
+        height: 40px;
+        width: 276px;
+    }
+}

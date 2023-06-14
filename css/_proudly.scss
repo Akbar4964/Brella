@@ -1,0 +1,25 @@
+.proudly {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    .proudly__title {
+        text-align: center;
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 46px;
+            text-align: center;
+            color: #214E41;
+        }
+    }
+    .proudly__img{
+        margin-top: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+}

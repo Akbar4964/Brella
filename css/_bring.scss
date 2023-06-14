@@ -1,0 +1,81 @@
+.bring {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 153px;
+    display: flex;
+
+    &__one {
+        background: #E3EEED;
+        height: 640px;
+        width: 50%;
+        left: 50%;
+
+        .bring__menu {
+            margin-left: 120px;
+            margin-top: 120px;
+        }
+
+        .bring__head {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            letter-spacing: 0.05px;
+            text-transform: uppercase;
+            color: #214E41;
+        }
+
+        .bring__title {
+            padding-top: 20px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 42px;
+            color: #214E41;
+        }
+
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 42px;
+            color: #43806C;
+           
+        }
+        img{
+            margin-left: 30px;
+        }
+        li{
+             padding: 20px 0;
+        }
+    }
+
+    &__two {
+        background: #214E41;
+        height: 640px;
+        width: 50%;
+        left: 50%;
+
+
+        p {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 34px;
+            letter-spacing: 0.02px;
+            color: #FFFFFF;
+            height: 102px;
+            width: 491px;
+            margin: 0 auto;
+            padding-top: 165px;
+        }
+
+        .bring__four {
+            margin-top: 34px;
+        }
+    }
+}

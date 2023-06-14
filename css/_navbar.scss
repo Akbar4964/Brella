@@ -1,0 +1,91 @@
+.navbar {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    ;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        margin-left: 45px;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 0 25px;
+        }
+
+        a {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #214E41;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        margin: 0 30px;
+        align-items: center;
+
+        button {
+            margin-right: 30px;
+            height: 40px;
+            width: 137px;
+            background: #43806C;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            border-radius: 6px;
+            border: 0;
+            transition: 0.1s;
+        }
+        button:hover{
+            background-image: linear-gradient(aqua, white,rgb(0, 255, 0));
+        }
+        button:active{
+            background-color: aqua;
+            box-shadow: inset 3px 5px 30px blue;
+        }
+        select {
+            margin-right: 44.13px;
+            border: 0;
+            outline: 0;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 20px;
+            color: #214E41;
+
+            option {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 20px;
+                color: #214E41;
+            }
+        }
+
+        p {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #214E41;
+        }
+    }
+
+}
